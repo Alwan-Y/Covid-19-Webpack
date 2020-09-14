@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.carousel {
+    height: 350px;
+    background-color: grey;
+}
+
+.carousel-item .row {
+    height: 350px;
+}
+
+.nav-item {
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.clock {
+    margin-top: auto;
+    width: auto;
+    padding: 10px;
+    color: black;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.clock .time {
+    font-size: 30px;
+    margin: 0 auto;
+}
+
+
+.clock .date {
+    font-size: 20px;
+    margin: 0 auto;
+}

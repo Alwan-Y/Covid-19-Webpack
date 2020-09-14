@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Covid-19 IND</title>
+</head>
+
+<body>
+    <nav-bar></nav-bar>
+    <container-bar></container-bar>
+    <content-first></content-first>
+    <div class="container">
+        <div class="accordion rounded shadow mt-5" id="accordionExample">
+            <div class="card">
+                <div class="card-header mb-1" id="headingFive">
+                    <h3 class=""><button class="btn btn-link" type="button" data-toggle="collapse"
+                            data-target="#collapseFive" aria-expanded="false" aria-controls="collapseOne">Data Updata
+                            Nasional</button></h3>
+                </div>
+                <div id="collapseFive" class="collapse show" aria-labelledby="headingFive"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col align-self-center">
+                                <div class="clock"><span class="time"></span> <span class="date"></span></div>
+                            </div>
+                            <div class="col covid-19-nas align-self-center"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header mb-1" id="headingSix">
+                    <h3 class=""><button class="btn btn-link" type="button" data-toggle="collapse"
+                            data-target="#collapseSix" aria-expanded="false" aria-controls="collapseOne">Data Updata
+                            Provinsi</button></h3>
+                </div>
+                <div id="collapseSix" class="collapse show" aria-labelledby="headingSix"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                        <div class="row covid-19-prov"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="accordion rounded shadow mt-5" id="accordionExample">
+            <div class="card">
+                <div class="card-header mb-1" id="headingFour">
+                    <h3 class=""><button class="btn btn-link" type="button" data-toggle="collapse"
+                            data-target="#collapseFour" aria-expanded="false" aria-controls="collapseOne">Bosan Dirumah?
+                            Cari Film Kesukaan Mu Disini !!!</button></h3>
+                </div>
+                <div id="collapseFour" class="collapse show" aria-labelledby="headingFour"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="input-group mb-3"><input class="form-control input-keyword"
+                                        placeholder="Search Movie">
+                                    <div class="input-group-append"><button class="btn btn-light search-button"
+                                            type="button">Search</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row movie-container"></div>
+                    </div>
+                    <div class="modal fade" id="movieDetailModal" tabindex="-1" role="dialog"
+                        aria-labelledby="movieDetailModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="movieDetailModalLabel">Modal title</h5><button
+                                        type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                            aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body"></div>
+                                <div class="modal-footer"><button type="button" class="btn btn-secondary"
+                                        data-dismiss="modal">Close</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container border-top mt-5">
+        <div class="row justify-content-end mt-5">
+            <div class="col-10 text-right">
+                <h6>Copyright By : Alwan Yusuf</h6>
+            </div>
+            <div class="row justify-content-right">
+                <div class="col-12">
+                    <nav class="nav justify-content-end"><a class="nav-link" href="#">Developer</a> <a class="nav-link"
+                            href="#">Terms</a> <a class="nav-link pr-0" href="#">Privacy</a></nav>
+                </div>
+            </div>
+        </div>
+        <script src="bundle.js"></script>
+    </div>
+</body>
+
+</html>
